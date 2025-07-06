@@ -52,25 +52,28 @@
 /* uzbekistan position*/
 .uzb{
     position:fixed;
-    padding-top:200px;
-    padding-left:100px;
+    margin-top:200px;
+    margin-left:100px;
+    font-family: "Delius", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(219, 233, 197);
+    padding:10px;
+    border-radius:50px;
+
 }
 
 /* philly position*/
 .philly{
     position:fixed;
-    padding-bottom:900px;
-    padding-left:900px;
-
-}
-
-/* moved to us text*/
-.us{
-    position:fixed;
-    
-    text-align:center;
-    margin-top: 0;
-    margin-bottom: 0;
+    top:200px;
+    right:100px;
+    font-family: "Delius", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(219, 233, 197);
+    padding:10px;
+    border-radius:50px;
 }
 
 
@@ -82,13 +85,38 @@
     padding:10px;
     border-radius:30px;
     box-sizing:border-box;
+    font-family: "Delius", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
+.aboutMe h2{
+    color:rgb(83, 185, 114);
+    font-weight: bolder;
+    text-align:center;
+}
+
+.school{
+    font-weight: bold;
+}
+
+/* makes text boxes align */
 .clr{
     clear:both;
 }
 
-
-
+/* home page text edits*/
+.homePage{
+    text-align:center;
+    font-size:35px;
+    font-family: "Sofia", sans-serif;
+    position:fixed;
+    margin-left:560px;
+    bottom:60px;
+    background-color: #f5eeee;
+    padding: 10px;            
+    border-radius: 50px;      
+    color: rgb(230, 151, 151); 
+}
 
 /*removes unerline on links*/
 a{
@@ -100,16 +128,3 @@ a:hover{
 
 
 
-/*Interest*/
-.interest{
-    border:1px #ccc solid;
-    padding:10px;
-    border-radius:30px;
-    margin-right: 1000px;
-}
-.interest h2{
-    text-align: center;
-}
-.interest ul{
-    list-style: square;
-}
