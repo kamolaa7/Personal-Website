@@ -1,0 +1,115 @@
+/* HOME PAGE */
+/* name positioning */
+.name{
+    text-align:center;
+    font-size:60px;
+    font-weight:200;
+    font-family: "Sofia", sans-serif;
+    margin-bottom:0;
+    color: rgb(184, 42, 42);
+}   
+/* flower text */
+.flower{
+    text-align:center;
+    font-weight:100;
+    font-family: "Sofia", sans-serif;
+    margin-bottom:0;
+    margin-top:0;
+    color: rgb(230, 151, 151); 
+}
+/* cat positioning */
+.catPosition{
+    width: 800px;
+    padding-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* link positioning*/
+.linkPosition{
+    text-align:center;
+    font-size:35px;
+    font-family: "Sofia", sans-serif;
+    position:fixed;
+    margin-left: 400px;
+    margin-right: 400px;
+    bottom:60px;
+    background-color: #f5eeee;
+    padding: 10px;            
+    border-radius: 50px;      
+    color: rgb(230, 151, 151); 
+}
+ 
+
+/* ABOUT ME PAGE*/
+/*center ariplane image*/
+.plane{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:500px;
+}
+/* uzbekistan position*/
+.uzb{
+    position:fixed;
+    padding-top:200px;
+    padding-left:100px;
+}
+
+/* philly position*/
+.philly{
+    position:fixed;
+    padding-bottom:900px;
+    padding-left:900px;
+
+}
+
+/* moved to us text*/
+.us{
+    position:fixed;
+    
+    text-align:center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*interests, favorites, eduction edits*/
+.aboutMe{
+    float: left;
+    width: 33.3%;
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:30px;
+    box-sizing:border-box;
+}
+.clr{
+    clear:both;
+}
+
+
+
+
+/*removes unerline on links*/
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(102, 214, 252)
+}
+
+
+
+/*Interest*/
+.interest{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:30px;
+    margin-right: 1000px;
+}
+.interest h2{
+    text-align: center;
+}
+.interest ul{
+    list-style: square;
+}
