@@ -1,7 +1,7 @@
 /* HOME PAGE */
 /* name positioning */
 .name{
-    text-align:center;
+    text-align:center;    
     font-size:60px;
     font-weight:200;
     font-family: "Sofia", sans-serif;
@@ -27,15 +27,14 @@
 }
 /* link positioning*/
 .linkPosition{
+    position:fixed !important;
+    bottom: 5% !important;
+    left: 30% !important;
     text-align:center;
-    font-size:35px;
+    font-size:200%;
     font-family: "Sofia", sans-serif;
-    position:fixed;
-    margin-left: 400px;
-    margin-right: 400px;
-    bottom:60px;
     background-color: #f5eeee;
-    padding: 10px;            
+    padding: 1%;            
     border-radius: 50px;      
     color: rgb(230, 151, 151); 
 }
@@ -125,6 +124,3 @@ a{
 a:hover{
     color:rgb(102, 214, 252)
 }
-
-
-
